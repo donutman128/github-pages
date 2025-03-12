@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoltzfoos Golf Carts Sales Checklist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            margin-top: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .checkbox {
+            margin: 5px 0;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            margin: 20px auto;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stoltzfoos Golf Carts - Sales Checklist</h1>
+
+    <form action="https://formsubmit.co/daniel@customgolfkarts.com" method="POST">
+
+        <div class="section">
+            <h2>Step 1: Customer Walk-In & Showcase Inventory</h2>
+            <label class="checkbox"><input type="checkbox" name="Greet Customer"> Greet the customer and ask what they are looking for.</label><br>
+            <label class="checkbox"><input type="checkbox" name="Show Inventory"> Show available inventory and highlight features.</label><br>
+            <label class="checkbox">Ask for their budget range:</label><br>
+            <label class="checkbox"><input type="checkbox" name="Budget" value="$1,000 - $5,000"> $1,000 - $5,000</label><br>
+            <label class="checkbox"><input type="checkbox" name="Budget" value="$5,000 - $10,000"> $5,000 - $10,000</label><br>
+            <label class="checkbox"><input type="checkbox" name="Budget" value="$10,000 - $15,000"> $10,000 - $15,000</label><br>
+            <label class="checkbox"><input type="checkbox" name="Budget" value="$15,000 - $20,000"> $15,000 - $20,000</label><br>
+        </div>
+
+        <div class="section">
+            <h2>Step 2: Enter Customer into QuickBooks</h2>
+            <label class="checkbox"><input type="checkbox" name="QuickBooks Entry"> Enter customer into QuickBooks.</label><br>
+        </div>
+
+        <div class="section">
+            <h2>Step 3: Log Customer Contact Info in Monday.com (If No Purchase)</h2>
+            <label class="checkbox"><input type="checkbox" name="Log Contact in Monday.com"> Enter customer details in Monday.com.</label><br>
+        </div>
+
+        <div class="section">
+            <h2>Step 4: Generate Invoice (If Sale Happens)</h2>
+            <label class="checkbox"><input type="checkbox" name="Create Invoice"> Create an invoice in QuickBooks.</label><br>
+            <label class="checkbox"><input type="checkbox" name="Review Invoice"> Review invoice with the customer.</label><br>
+        </div>
+
+        <div class="section">
+            <h2>Step 5: Financing Process (If Applicable)</h2>
+            <label class="checkbox"><input type="checkbox" name="Pre-Approval"> Assist customer with financing pre-approval.</label><br>
+            <label class="checkbox"><input type="checkbox" name="Financing Approved"> If approved, complete financing application.</label><br>
+        </div>
+
+        <div class="section">
+            <h2>Step 6: Tag the Cart & Remove Listing</h2>
+            <label class="checkbox"><input type="checkbox" name="Tag Cart"> Place a "SOLD" tag on the cart.</label><br>
+            <label class="checkbox"><input type="checkbox" name="Remove from Marketplace"> Remove the cart listing from Facebook Marketplace.</label><br>
+        </div>
+
+        <div class="section">
+            <h2>Step 7: Warranty Registration & Documentation</h2>
+            <label class="checkbox"><input type="checkbox" name="Send Documents to Daniel"> Send the following to Daniel:</label><br>
+            <label class="checkbox"><input type="checkbox" name="Invoice"> Invoice</label><br>
+            <label class="checkbox"><input type="checkbox" name="Certificate of Origin"> Copy of Certificate of Origin</label><br>
+            <label class="checkbox"><input type="checkbox" name="Battery Serial Number"> Battery Serial Number</label><br>
+        </div>
+
+        <div class="section">
+            <h2>Step 8: Finalize Delivery & Post-Sale Actions</h2>
+            <label class="checkbox"><input type="checkbox" name="Prepare Gift Bag"> Prepare customer gift bag.</label><br>
+            <label class="checkbox"><input type="checkbox" name="Request Google Review"> Request a Google review from the customer.</label><br>
+            <label class="checkbox"><input type="checkbox" name="Take Customer Picture"> Take a picture of the customer(s) next to their new cart.</label><br>
+        </div>
+
+        <h2>Submit Checklist</h2>
+        <p>When you submit this form, it will be emailed to <strong>daniel@customgolfkarts.com</strong>.</p>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
